@@ -19,8 +19,8 @@ export default function Badge({ children, variant = "primary", size = "md" }: Ba
   };
 
   return (
-    <div className={`inline-flex items-center justify-center gap-2 rounded-full ${sizeClasses[size]} ${variantClasses[variant]} font-medium`}>
-      <div className="w-5 h-5 rounded-full flex items-center justify-center">
+    <div className={`inline-flex w-fit items-center justify-center gap-2 rounded-full ${sizeClasses[size]} ${variantClasses[variant]} font-medium`}>
+      <div className="w-5 h-5 rounded-full flex items-center justify-center bg-primary-400">
         <LightningIcon className="w-2 h-2 text-white" />
       </div>
       <span>{children}</span>

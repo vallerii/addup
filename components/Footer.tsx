@@ -1,8 +1,8 @@
 
 export default function Footer() {
   return (
-     <footer className="py-12 lg:py-20 px-4 sm:px-8 bg-neutral-1000">
-        <div className="max-w-[1443px] mx-auto space-y-14">
+     <footer className=" px-2 sm:px-4 ">
+        <div className="max-w-[1728px] mx-auto space-y-14 bg-neutral-1000  px-8 sm:px-16 ">
           {/* Footer Links */}
           <div className="flex flex-col lg:flex-row justify-between gap-12">
             {/* Logo & Language */}

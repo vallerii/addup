@@ -2,7 +2,7 @@ import { FeatureCard } from "../ui/featureCard";
 
 export default function PlatformSection() {
   return (
-    <section className="py-12 lg:py-20 px-4 sm:px-8">
+    <section className=" px-2 sm:px-4">
       <div className="max-w-[1728px] mx-auto">
         <div className="bg-neutral-1000 rounded-[30px] p-8 lg:p-20">
           <div className="max-w-[1320px] mx-auto">
@@ -23,9 +23,7 @@ export default function PlatformSection() {
 
             {/* Terminal Preview */}
             <div className="relative aspect-[1320/786] bg-neutral-900 rounded-3xl mb-12 overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-neutral-500 text-sm">Trading Terminal Preview</div>
-              </div>
+              <video src="/powerofplatform.mp4" autoPlay loop muted className="w-full h-full object-cover" />
             </div>
 
             <p className="text-sm text-neutral-300 opacity-60 text-center font-medium max-w-[546px] mx-auto mb-20">

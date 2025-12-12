@@ -1,19 +1,23 @@
 import Badge from "@/components/Badge";
+import Image from "next/image";
 
 export default function SwapSection() {
   return (
-    <section className="py-12 lg:py-20 px-4 sm:px-8">
+    <section className=" px-2 sm:px-4">
       <div className="max-w-[1728px] mx-auto">
         <div className="bg-white rounded-[30px] p-8 lg:p-16">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Phone Mockup */}
             <div className="flex justify-center lg:justify-start">
-              <div className="relative w-full max-w-[478px] aspect-[478/685]">
-                <div className="absolute inset-0 bg-gradient-to-br from-neutral-200 to-neutral-300 rounded-[42px]"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-[360px] h-[685px] bg-neutral-900 rounded-[40px] shadow-2xl"></div>
-                </div>
-              </div>
+              <Image
+                src="/Swap.png"
+                alt="Crypto Trading App"
+                className="w-full h-full object-cover rounded-[30px]"
+                width={844}
+                height={841}
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
 
             {/* Content */}

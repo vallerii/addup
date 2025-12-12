@@ -2,7 +2,7 @@ import Badge from "@/components/Badge";
 
 export default function HowitWorksSection() {
   return (
-    <section className="py-12 lg:py-20 px-4 sm:px-8">
+    <section className=" px-2 sm:px-4">
       <div className="max-w-[1728px] mx-auto">
         <div className="bg-white rounded-[30px] p-8 lg:p-20">
           <div className="max-w-[879px] mx-auto">

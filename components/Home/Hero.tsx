@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-[80px] px-2 sm:px-4">
+    <section className="pt-[92px] px-2 sm:px-4">
       <div className="max-w-[1728px] mx-auto">
         <div className="overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-[8px] ">

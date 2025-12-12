@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function MobileAppSection() {
   return (
-    <section className=" px-2 sm:px-4">
+    <section className=" px-2 sm:px-4 mb-[-119px]">
       <div className="max-w-[1728px] mx-auto">
         <div className="bg-neutral-1000 rounded-t-[30px] p-8 lg:p-20">
           <div className="max-w-[804px] mx-auto text-center mb-12 lg:mb-20 space-y-6">

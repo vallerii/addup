@@ -9,7 +9,7 @@ import TradingMarketsSection from "./TradingMarketsSection";
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col gap-[16px]">
- 
+      {/* Hero Section */}
       <Hero />
 
       {/* Trading Markets Section */}

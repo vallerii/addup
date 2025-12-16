@@ -21,11 +21,11 @@ export default function TradingMarketsSection() {
               {/* Tabs */}
               <div className="flex items-center justify-center gap-2">
                 <button className="flex items-center gap-2 px-3 py-2 rounded-full bg-primary-400 text-white text-sm font-medium">
-                  <LightningIcon className="w-3 h-3" />
+                  <LightningIcon className="w-3 h-3 hidden md:block" />
                   Spot
                 </button>
                 <button className="flex items-center gap-2 px-3 py-2 rounded-full border border-primary-400 text-primary-400 text-sm font-medium hover:bg-primary-400 hover:text-white transition-colors">
-                  <LightningIcon className="w-3 h-3 color-primary-400" />
+                  <LightningIcon className="w-3 h-3 color-primary-400 hidden md:block" />
                   Futures
                 </button>
               </div>

@@ -4,20 +4,20 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-[92px] px-2 sm:px-4">
+    <section className="pt-[68px] md:pt-[92px] px-2 sm:px-4">
       <div className="max-w-[1728px] mx-auto">
         <div className="overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-[8px] ">
             {/* Left Content */}
-            <div className="flex flex-col justify-center gap-12 lg:gap-16 bg-white rounded-[30px] p-8 lg:p-16">
-              <div className="flex flex-col gap-12">
+            <div className="flex flex-col justify-center gap-12 lg:gap-16 bg-white rounded-[30px] p-[24px_20px] lg:p-16">
+              <div className="flex flex-col gap-[32px]">
                 <Badge>Trusted Licenses</Badge>
                 
-                <div className="flex flex-col gap-8 lg:gap-10">
-                  <h1 className="text-5xl sm:text-6xl lg:text-[84px] font-extrabold leading-none tracking-tight text-neutral-900">
+                <div className="flex flex-col gap-[20px] lg:gap-10">
+                  <h1 className="text-[50px] sm:text-6xl lg:text-[84px] font-extrabold leading-none tracking-tight text-neutral-900">
                     Your Trusted Crypto Broker
                   </h1>
-                  <p className="text-base lg:text-lg text-neutral-500 font-medium max-w-[415px]">
+                  <p className="text-[14px] lg:text-lg text-neutral-500 font-medium max-w-[415px]">
                     Spot, Futures & instant USD transfers via Transfer365. Buy, sell & transfer digital assets
                   </p>
                 </div>
